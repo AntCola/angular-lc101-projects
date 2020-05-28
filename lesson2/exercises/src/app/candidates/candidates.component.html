@@ -12,10 +12,10 @@
         <div class="data col-3">
             <h2>Candidate Data</h2>
             <p *ngIf="selected"> <!-- Add an *ngIf to this tag to display the selected candidate's data-->
-                {{selected.name}}
-                {{selected.age}}
-                {{selected.mass}}
-                {{selected.sidekick}}
+                Name: {{selected.name}} <br>
+                Age: {{selected.data.age}} <br>
+                Mass: {{selected.data.mass}} <br>
+                Sidekick: {{selected.data.sidekick}}
             </p>
         </div>
     
